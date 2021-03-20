@@ -11,6 +11,7 @@
  <div class="section">
   <div class="isi">
   <h2>Tabel perkalian</h2>
+  <hr size="3px" width="150px" align="left" color="blue">
   <?php 
   $i=12;
   for($j=15; $j <= 45; $j=$j+2){
