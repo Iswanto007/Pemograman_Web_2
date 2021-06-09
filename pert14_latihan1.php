@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +43,7 @@ if(isset($_POST['Login'])){
   echo" <h2> klik <a href='pert14_latihan2.php'>disini</a>
   menuju halaman pemeriksaan</h2>";
  }else{
-  echo"username & password anda salah";
+  echo"<script>alert('username/password salah sayang');</script>";
  }
 }
 
